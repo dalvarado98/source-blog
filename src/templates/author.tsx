@@ -26,6 +26,7 @@ import Helmet from 'react-helmet';
 import config from '../website-config';
 import Website from '../components/icons/website';
 import Twitter from '../components/icons/twitter';
+import LinkedIn from '../components/icons/linkedin';
 
 const HiddenMobile = css`
   @media (max-width: 500px) {
@@ -93,7 +94,7 @@ interface AuthorTemplateProps {
     authorYaml: {
       id: string;
       website?: string;
-      twitter?: string;
+      linkedIn?: string;
       facebook?: string;
       location?: string;
       // eslint-disable-next-line @typescript-eslint/camelcase
@@ -186,42 +187,16 @@ const Author: React.FunctionComponent<AuthorTemplateProps> = props => {
                   {totalCount === 1 && '1 post'}
                   {totalCount === 0 && 'No posts'} <Bull>•</Bull>
                 </div>
-                {author.website && (
-                  <div>
-                    <a
-                      className="social-link-wb"
-                      css={SocialLink}
-                      href={author.website}
-                      title="Website"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Website />
-                    </a>
-                  </div>
-                )}
-                {author.twitter && (
+                {author.linkedIn && (
                   <a
                     className="social-link-tw"
                     css={SocialLink}
-                    href={`https://twitter.com/${author.twitter}`}
-                    title="Twitter"
+                    href={`https://www.linkedin.com/in/${author.linkedIn}`}
+                    title="LinkedIn"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Twitter />
-                  </a>
-                )}
-                {author.facebook && (
-                  <a
-                    className="social-link-fb"
-                    css={SocialLink}
-                    href={`https://www.facebook.com/${author.facebook}`}
-                    title="Facebook"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Facebook />
+                    <LinkedIn />
                   </a>
                 )}
                 {/* TODO: RSS for author */}
@@ -266,7 +241,7 @@ export const pageQuery = graphql`
     authorYaml(id: { eq: $author }) {
       id
       website
-      twitter
+      linkedIn
       bio
       facebook
       location

@@ -100,6 +100,14 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
+      allTagYaml {
+        edges {
+          node {
+            id
+            description
+          }
+        }
+      }
     }
   `);
 
@@ -141,8 +149,8 @@ exports.createPages = async ({ graphql, actions }) => {
   const tagTemplate = path.resolve('./src/templates/tags.tsx');
   const tags = _.uniq(
     _.flatten(
-      result.data.allMarkdownRemark.edges.map(edge => {
-        return _.castArray(_.get(edge, 'node.frontmatter.tags', []));
+      result.data.allTagYaml.edges.map(edge => {
+        return _.castArray(_.get(edge, 'node.id', []));
       }),
     ),
   );
