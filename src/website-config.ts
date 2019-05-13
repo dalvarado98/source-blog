@@ -45,17 +45,17 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'WordsGaze',
-  description: 'The professional publishing platform',
+  description: '',
   coverImage: 'img/blog-cover.jpg',
-  logo: 'img/ghost-logo.png',
+  logo: 'img/word-gaze-logo.png',
   lang: 'en',
   siteUrl: 'https://gatsby-casper.netlify.com',
   facebook: 'https://www.facebook.com/ghost',
   twitter: 'https://twitter.com/tryghost',
   showSubscribe: true,
-  mailchimpAction: 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
-  mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
-  mailchimpEmailFieldName: 'MERGE0',
+  mailchimpAction: 'https://gmail.us20.list-manage.com/subscribe/post?u=fa93584683424c0b7af96fe27&amp;id=c76f991758',
+  mailchimpName: 'b_fa93584683424c0b7af96fe27_c76f991758',
+  mailchimpEmailFieldName: 'EMAIL',
   footer: 'built with Gatsby by Daniel Alvarado',
 };
 
