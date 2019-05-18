@@ -79,6 +79,7 @@ const Footer: React.FunctionComponent = () => {
         </section>
         <SiteFooterNav>
           <Link to="/">Latest Posts</Link>
+          <a href="/rss.xml">RSS</a>
         </SiteFooterNav>
       </div>
     </footer>
