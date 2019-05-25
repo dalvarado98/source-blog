@@ -44,8 +44,8 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'WordsGaze',
-  description: '',
+  title: 'WordGaze',
+  description: 'A space for interesting amateur writing',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/word-gaze-logo.png',
   lang: 'en',
