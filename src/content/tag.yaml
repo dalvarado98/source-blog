@@ -1,12 +1,6 @@
-- id: speeches
-  description: Some of the greatest words ever spoken.
-  image: img/speeches-cover.jpg
-- id: tests
-  description: Test tag.
-  image: img/speeches-cover.jpg
-- id: source
-  description: Source tag.
-  image: img/speeches-cover.jpg
-- id: Testing Kebab
-  description: Source tag.
+#- id: Coding
+#  description: All related to software development.
+#  image: img/speeches-cover.jpg
+- id: Blog
+  description: Topics related to WordGaze.
   image: img/speeches-cover.jpg

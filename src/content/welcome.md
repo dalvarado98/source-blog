@@ -2,24 +2,29 @@
 layout: post
 title: "Welcome to WordGaze"
 author: Daniel
-tags: ["Getting Started"]
+tags: ["Blog"]
 image: img/welcome-to-ghost.jpg
 date: "2018-05-06T23:46:37.121Z"
 draft: false
 ---
 
-👋 Welcome to WordGaze, first of all thank you for visiting this blog.
+Welcome to WordGaze, first of all thank you for visiting my blog.
 
-We know that first impressions are important, so we've populated your new site with some initial __getting started__ posts that will help you get familiar with everything in no time. This is the first one!
+This blog is kind of an experiment, so you can expect to find lots of multiple subjects that I choose to adress,there's no boundaries except for my interests, but still I'll try to focus on some subjects more than others, specially with __software development__, which is my career.
 
-__A few things you should know upfront__:
-1. Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That's who it works best for. 
-2. The entire platform can be modified and customised to suit your needs. It's very powerful, but does require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog. 
-3. For the best experience we recommend downloading the Ghost Desktop App for your computer, which is the best way to access your Ghost site on a desktop device. 
+__A few things about me__:
+1. I'm a Software developer; currently I work primarly with .Net but I like to explore other technologies so don't worry, I wont spam this blog wih .Net and Microsoft stuff.
+2. I'm also a student, so yes I haven't graduated yet, so I'm still learning a lot and I'd love to share what I learn.
+3. I'm aware that it's very probable that no one will read this, but it doesn't matter, as much as this is an experiment it's also a great oportunity to practice writing and develop some experience with Gatsby and React.  
 
-Ghost is made by an independent non-profit organisation called the Ghost Foundation. We are 100% self funded by revenue from our Ghost(Pro) service, and every penny we make is re-invested into funding further development of free, open source technology for modern publishing.  
+__A few things you can expect__:
+1. Developers! Developers! Developers! Some software development related stuff.
+2. Taveling, as most of the people, I love to travel inside and outside of Costa Rica, althought the second one is realy realy rare I have some plans for the future, so in the mean time there are lots of places here in Costa Rica that I'd like to share.
+3. Climbing, from a beginner perspective... I'm starting so it'd be nice to track my progress writing about tips, technices, gear and more...
+4. Lifestyle, and I know I'm pretty young but that doesn't stop my from writing about experiences and lessons that I've learned, if they worked for me (objectiveley, I like tangible results if possible) maybe they can work for you or at least give you another perspective.
+5. Books, music and movies; I'm trying to read a lot more and also I love music and movies, having said that you can expect reviews about stuff I like.
 
-The version of Ghost you are looking at right now would not have been made possible without generous contributions from the open source community.  
-## Next up, the editor
-The main thing you'll want to read about next is probably: the Ghost editor. This is where the good stuff happens.
-> By the way, once you're done reading, you can simply delete the default __Ghost__ user from your team to remove all of these introductory posts! 
+So... I thing that's all for the intro, see you in the next post.
+
+
+

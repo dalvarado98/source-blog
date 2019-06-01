@@ -65,7 +65,7 @@ const Tags: React.FunctionComponent<TagTemplateProps> = props => {
     return (
         <IndexLayout>
             <Helmet>
-                <title>About</title>
+                <title>Tags</title>
             </Helmet>
             <Wrapper css={PageTemplate}>
                 <header css={[outer, SiteHeader]}>

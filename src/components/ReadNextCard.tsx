@@ -196,9 +196,6 @@ const ReadNextCard: React.FunctionComponent<ReadNextProps> = props => {
               <Link to={`/tags/${_.kebabCase(props.tags[0])}/`}>{props.tags[0]}</Link>
             </ReadNextCardHeaderTitle>
           </ReadNextCardHeader>
-          <ReadNextDivider>
-            <InfinityIcon />
-          </ReadNextDivider>
           <ReadNextCardContent>
             <ul>
               {props.relatedPosts.edges.map(n => {

@@ -44,7 +44,7 @@ const SubscribeFormSection = styled.section`
 `;
 
 const SubscribeFormTitle = css`
-  margin: 0 0 3px 0;
+  margin: 0 0 20px 0;
   padding: 0;
   color: ${colors.darkgrey};
   font-size: 3.5rem;
@@ -62,8 +62,7 @@ export interface SubscribeProps {
 const Subscribe: React.FunctionComponent<SubscribeProps> = props => {
   return (
     <SubscribeFormSection>
-      <h3 css={SubscribeFormTitle}>Subscribe to {props.title}</h3>
-      <p>Get the latest posts delivered right to your inbox</p>
+      <h3 css={SubscribeFormTitle}>&mdash; Subscribe to {props.title} &mdash;</h3>
       <SubscribeForm />
     </SubscribeFormSection>
   );
