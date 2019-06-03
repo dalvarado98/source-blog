@@ -10,7 +10,7 @@ draft: false
 
 Welcome to WordGaze, first of all thank you for visiting my blog.
 
-This blog is kind of an experiment, so you can expect to find lots of multiple subjects that I choose to adress,there are no boundaries except for my interests, but still I'll try to focus on some subjects more than others, specially with __software development__, which is my career.
+This blog is kind of an experiment, so you can expect to find lots of multiple subjects that I choose to adress, there are no boundaries except for my interests, but still I'll try to focus on some subjects more than others, specially with __software development__, which is my career.
 
 __A few things about me__:
 1. I'm a Software developer; currently I work primarly with .Net but I like to explore other technologies so don't worry, I wont spam this blog wih .Net and Microsoft stuff.
@@ -25,6 +25,5 @@ __A few things you can expect__:
 5. Books, music and movies; I'm trying to read a lot more and also I love music and movies, having said that you can expect reviews about stuff I like.
 
 So... I thing that's all for the intro, see you in the next post.
-
 
 
